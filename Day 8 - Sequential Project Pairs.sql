@@ -23,7 +23,4 @@ INSERT INTO projects (id, title, start_date, end_date, budget) VALUES
 -- Implement your SQL query below, utilizing the provided schema
 select p1.title as project_title_end, p2.title as project_title_start, p1.end_date as date from 
   projects p1 join projects p2 on p1.end_date = p2.start_date
-
-
   
-
